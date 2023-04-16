@@ -1,3 +1,3 @@
 ## Basic To-Do Page
 
-Gonno update with multiple day/list avaible
+Gonna update with multiple day/list avaible
