@@ -9,9 +9,10 @@
 <body>
     <div style="text-allign:center; color:violet;">
         <?php
+            $apiKey = "topSecretApiKeyHere"
             $cityName =$_POST["city"];
             function getWeatherDetails($cityName){
-                $url = "https://api.openweathermap.org/data/2.5/weather?q=".$cityName."&appid=e50608ef1ecc007c430bed5e758f5478&units=metric";
+                $url = "https://api.openweathermap.org/data/2.5/weather?q=".$cityName."&appid=".$apiKey."&units=metric";
 
                 $ch = curl_init();
                 curl_setopt($ch, CURLOPT_URL, $url);
