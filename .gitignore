@@ -2,4 +2,16 @@
 .vscode
 
 #Dependency Directories
-node_modules/
+/node_modules
+/vendor
+
+#Secret Stuff
+.env
+.env.backup
+.env.production
+auth.json
+
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
